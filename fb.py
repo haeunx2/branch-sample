@@ -4,8 +4,8 @@
 
 # -> 어떡하든 내가 원하는 최종단계의 코드를 만들어내야한다.
 
-for j in range(4, 15+1):
-    if j % 3 == 0 or j % 5 ==0:
-        print('fizz' * (j%3==0) + 'buzz' * (j%5==0))
+for i in range(1, 15+1):
+    if i % 3 == 0 or i % 5 ==0:
+        print('fizz' * (i%3==0) + 'buzz' * (i%5==0))
     else:
-        print(j)
+        print(i)
